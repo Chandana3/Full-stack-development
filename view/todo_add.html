@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add ToDo</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/display.css">
+    <script type="text/javascript" src="/JS/validation.js">
+    </script>
+</head>
+<body>
+<header class="main-header">
+    <nav class="main-header__nav">
+        <ul class="main-header__item-list">
+            <li class="main-header__item"><a href="/display">Display</a></li>
+            <li class="main-header__item"><a class="active" href="/admin/todo_add">Add To Do</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <form class="product-form" action="/admin/todo_add" method="POST">
+        <div class="form-control">
+            <label for="name">Todo Name</label>
+            <input type="text" name="name" id="name" min="5" required>
+        </div>
+        <div class="form-control">
+            <label for="ID">Todo Id</label>
+            <input type="number" name="id" id="id" min="5" required>
+        </div>
+        <div>
+            <label for="status">Todo Status:</label>
+            <input type="checkbox" name="completed" id="status">completed
+            <input type="checkbox" name="not-completed" id="status1">not-completed
+        </div>
+        <button type="submit" onclick="validate()">submit</button>
+    </form>
+</main>
+</body>
+</html>
