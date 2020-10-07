@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82c1ed03-610e-4cdd-885b-382cc54969a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="82c1ed03-610e-4cdd-885b-382cc54969a8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +17,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iXoR8cvp6hpCva1rubnz9iPvgJ" />
@@ -47,14 +50,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602063287875</updated>
-      <workItem from="1602063288947" duration="658000" />
+      <workItem from="1602063288947" duration="958000" />
     </task>
+    <task id="LOCAL-00001" summary="added external CSS">
+      <created>1602064057266</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602064057266</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added external CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="added external CSS" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="258" y="0" key="CommitChangelistDialog2" timestamp="1602064055874">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="258" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1602064055874" />
     <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1602063803206">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -71,5 +90,13 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602063803206" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1602064177188">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602064177188" />
+    <state x="443" y="247" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602064004612">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="443" y="247" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1602064004612" />
   </component>
 </project>
