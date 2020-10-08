@@ -45,7 +45,7 @@ async function getStudents()
     console.log('called getStudents()');
 }
 
-async function run()
+/*async function run()
 {
     getStudents().then(function(){
         console.log('called run function');
@@ -59,6 +59,23 @@ run().then(function () {
 }).catch(error => {
     console.log(error.message);
 
+});*/
+
+async function findStudentByID(id)
+{
+    await Student.findById(id).then(function (result) {
+        console.log('Student found:',result);
+
+    }).catch(error => {
+        console.log('Error finding student with ID: ',id);
+    });
+}
+
+findStudentByID('5f7ea2b681150921780b4e49').then(()=>{
+    console.log('finished finding student')
+
+}).catch(reason => {
+    console.log('Error with finding student')
 });
 
 
