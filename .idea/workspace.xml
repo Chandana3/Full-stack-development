@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78ed0d07-a0ac-4416-82ca-f7cf97fd2a3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/podcast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +41,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602237412686</updated>
-      <workItem from="1602237413851" duration="3429000" />
+      <workItem from="1602237413851" duration="3519000" />
     </task>
+    <task id="LOCAL-00001" summary="Podcast - assessment">
+      <created>1602240917592</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602240917592</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Podcast - assessment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Podcast - assessment" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="399" y="142" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602240945042">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="399" y="142" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1602240945042" />
+    <state x="258" y="0" key="CommitChangelistDialog2" timestamp="1602240914551">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="258" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1602240914551" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1602237878611">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
