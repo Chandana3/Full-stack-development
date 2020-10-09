@@ -15,16 +15,15 @@ const courseSchema = new mongoose.Schema({
 });
 const Course = mongoose.model('Course', courseSchema);
 //findFirst And Update
-const course=new Course({
-    name:'Spring',
+const course = new Course({
+    name: 'Spring',
     author: 'Jane',
-    tags: ['Spring','Middleware'],
-    isPublished:true,
-    price:34
+    tags: ['Spring', 'Middleware'],
+    isPublished: true,
+    price: 34
 });
 
-async function createCourse()
-{
+async function createCourse() {
     const result = await course.save();
     console.log('Course created');
 }/*
@@ -45,17 +44,29 @@ async function updateCourse(id)
 updateCourse('5f7ff1028abe7c16e32b8b90').then(()=>{
     console.log('course update success');
 });*/
+
 //update first
-async function updateCourse()
-{
-    const result = await Course.updateMany({ author: 'Mosh' }, {
-        $set: { name: 'Learning Cricket'}
-
-
+//update and updateMany methods return void
+/*
+async function updateCourse() {
+    let result = await Course.updateMany({author: 'Mosh'}, {
+        $set: {name: 'Learning Volley'}
     });
-    console.log('course update success');
+    console.log(result);
+}
+updateCourse().then(() => {
+    console.log('success');
+});
+*/
+//update first
+async function updateCourse(id)
+{
+    let course = await Course.findByIdAndUpdate({_id: id}, {
+        $set: {name: 'Learning Angular', author: 'Mr. Balaguruswamy'}
+    },{new:false});
+    console.log(course);
 }
 
-updateCourse().then(() =>{
+updateCourse('5f7ff1028abe7c16e32b8b94').then(() => {
     console.log('success');
-} );
+})
