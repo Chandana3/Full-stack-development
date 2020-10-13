@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f7163eb-1a01-46a5-acec-2cad1033d37c" name="Default Changelist" comment="" />
+    <list default="true" id="0f7163eb-1a01-46a5-acec-2cad1033d37c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/first.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/add-product.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/shop.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/shop.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +28,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1io9ZU0vL8sFNmodiEL9rXS3vAk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,11 +53,53 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602563133634</updated>
-      <workItem from="1602563134809" duration="1409000" />
+      <workItem from="1602563134809" duration="4391000" />
     </task>
+    <task id="LOCAL-00001" summary="pug template">
+      <created>1602564827510</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602564827510</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pug template" />
+    <option name="LAST_COMMIT_MESSAGE" value="pug template" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="231" y="0" key="CommitChangelistDialog2" timestamp="1602564814261">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="231" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1602564814261" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1602564723217">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602564723217" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1602564723217">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602564723217" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1602564723217">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602564723217" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1602564723217">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602564723217" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1602564861585">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602564861585" />
+    <state x="443" y="247" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602564718106">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="443" y="247" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1602564718106" />
   </component>
 </project>
