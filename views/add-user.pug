@@ -1,0 +1,26 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        meta(http-equiv='X-UA-Compatible' content='ie=edge')
+        title Add Users
+        link(rel='stylesheet' href='/css/main.css')
+        link(rel='stylesheet' href='/css/form.css')
+        link(rel='stylesheet' href='/css/product.css')
+    body
+        header.main-header
+            nav.main-header__nav
+                ul.main-header__item-list
+                    li.main-header__item
+                        a(href='/') User
+                    li.main-header__item
+                        a.active(href='/admin/add-user') Add Users
+        main
+            form.product-form(action='/admin/add-user' method='POST')
+                .form-control
+                    label(for='title')
+                        span.req *
+                        |  Name:
+                    input#title(type='text' name='title' placehoder='enter minimum 5 chracters' minlength='5')
+                button.btn(type='submit') Add User
