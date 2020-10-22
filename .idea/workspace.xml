@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebe54b9c-f18e-43d1-939b-030f494c7595" name="Default Changelist" comment="" />
+    <list default="true" id="ebe54b9c-f18e-43d1-939b-030f494c7595" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/typescript/Employee.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typescript/Flyer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typescript/SuperMan.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typescript/Test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +21,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jDcptmfncNYeEWc8n6cCpAdRB7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,8 +45,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603342289328</updated>
-      <workItem from="1603342290362" duration="6875000" />
+      <workItem from="1603342290362" duration="7873000" />
     </task>
+    <task id="LOCAL-00001" summary="typescript-examples">
+      <created>1603357554145</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603357554145</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -48,13 +66,31 @@
         <option value="$PROJECT_DIR$/typescript/average.js" />
         <option value="$PROJECT_DIR$/typescript/sports.js" />
         <option value="$PROJECT_DIR$/typescript/ToDO.js" />
+        <option value="$PROJECT_DIR$/typescript/CustomerType.js" />
+        <option value="$PROJECT_DIR$/typescript/RegularCustomer.js" />
       </list>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="typescript-examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="typescript-examples" />
   </component>
   <component name="WindowStateProjectService">
     <state x="190" y="11" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603357252479">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="190" y="11" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1603357252479" />
+    <state x="242" y="0" key="CommitChangelistDialog2" timestamp="1603357553016">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="242" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1603357553016" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1603357621599">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603357621599" />
+    <state x="443" y="247" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603357528297">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="443" y="247" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1603357528297" />
   </component>
 </project>
